@@ -6,9 +6,22 @@
 
 int main() {
     //Área para definição das variáveis para armazenar as propriedades das cidades
-    printf("Olá Mundo, no Codespace");
+    
+    char estado1;
+    char codigo1[4];
+    char cidade1[50];
+
+    int populacao1;
+    int pontosTuristicos1;
+
+    float area1;
+    float pib1;
     
     // Área para entrada de dados
+
+    printf("--- Cadastro da Carta 1 ---\n\n");
+    printf("Digite o Estado (A-H): \n");
+    scanf(" %c", &estado1);
 
     //Área para exibição dos dados da cidade
 
