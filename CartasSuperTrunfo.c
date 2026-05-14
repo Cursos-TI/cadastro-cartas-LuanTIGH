@@ -20,10 +20,29 @@ int main() {
     // Área para entrada de dados
 
     printf("--- Cadastro da Carta 1 ---\n\n");
+    
     printf("Digite o Estado (A-H): \n");
-    scanf(" %c", &estado1);
+    scanf("%c", &estado1);
 
-    //Área para exibição dos dados da cidade
+    printf("Digite o Codigo da Carta: \n");
+    scanf("%s", &codigo1);
+
+    printf("Digite o Nome da Cidade: \n");
+    scanf("%s", cidade1);
+
+    printf("Digite o Numero de Habitantes: \n");
+    scanf("%d", &populacao1);
+
+    printf("Digite a Area em KM²: \n");
+    scanf("%f", &area1);
+
+    printf("Digite o PIB da Cidade: \n");
+    scanf("%f", &pib1);
+
+    printf("Digite o Numero de Pontos Turisticos: \n");
+    scanf("%d", &pontosTuristicos1);
+
+        //Área para exibição dos dados da cidade
 
 return 0;
 }
